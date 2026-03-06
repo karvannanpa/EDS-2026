@@ -3,9 +3,9 @@ version: 1
 indices:
   pages:
     include:
-      - '/**'
+      - '/product/**'
     exclude:
-      - ''
+      - '/product'
     target: /product-index.json
     properties:
       title:
