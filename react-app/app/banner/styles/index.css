@@ -1,0 +1,39 @@
+.banner {
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  text-align: center;
+}
+
+.banner h2 {
+  margin: 0 0 16px 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.banner p {
+  margin: 0 0 24px 0;
+  font-size: 1.125rem;
+  opacity: 0.9;
+}
+
+.banner button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  color: #667eea;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.banner button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.banner button:active {
+  transform: translateY(0);
+}
